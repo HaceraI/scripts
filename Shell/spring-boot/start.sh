@@ -8,9 +8,9 @@ SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 
 # Define Java startup parameters
 JAVA_MEMORY_OPTIONS="-Xms256m -Xmx256m -Xmn128m"
-JAVA_VM_OPTIONS="-DNACOS_HOST=localhost -DNACOS_NAMESPACE=60fc076a-b03e-4e17-af31-b22485e734e4 -DNACOS_GROUP=DEFAULT_GROUP"
+JAVA_VM_OPTIONS=""
 SPRING_PROFILE=""
-JAVA_EXEC="/usr/local/java/jdk8u422/bin/java"
+JAVA_EXEC="java"
 
 SPRINGBOOT_JAR_NAME=''
 
